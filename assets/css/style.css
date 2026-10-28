@@ -1,0 +1,18 @@
+:root { --app-bg: #f5f7fb; }
+body { background: var(--app-bg); color: #1f2937; }
+.hero-panel { background: linear-gradient(135deg, #0d6efd, #3f7fdc); color: #fff; border-radius: 1.25rem; }
+.metric-card, .content-card { border: 0; border-radius: 1rem; box-shadow: 0 0.35rem 1rem rgba(15, 23, 42, 0.07); }
+.metric-value { font-size: 1.65rem; font-weight: 700; line-height: 1.1; }
+.table thead th { white-space: nowrap; }
+.chart-box { position: relative; min-height: 320px; }
+.recommendation-box { border-left: 0.35rem solid #0d6efd; }
+.small-label { color: #6b7280; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.aspect-description { min-width: 240px; }
+.essay-text { min-width: 360px; max-width: 680px; white-space: normal; }
+.essay-labels { min-width: 150px; }
+.essay-labels .badge { margin: 0.125rem; }
+.progress { height: 0.65rem; }
+.search-select { min-height: 46px; }
+@media print { .navbar, footer, .no-print { display: none !important; } body { background: #fff; } .metric-card, .content-card { box-shadow: none; border: 1px solid #ddd; } }
+
+.app-navbar { position: sticky; top: 0; z-index: 1030; }

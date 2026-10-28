@@ -1,0 +1,27 @@
+# Dependency
+vendor/
+node_modules/
+
+# Rahasia
+.env
+config/database.local.php
+
+# Data dan backup
+*.sql
+*.sql.gz
+*.zip
+*.bak
+tmp/
+uploads/*
+!uploads/.gitkeep
+
+# Log dan cache
+*.log
+storage/logs/*
+cache/
+
+# Editor dan OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
